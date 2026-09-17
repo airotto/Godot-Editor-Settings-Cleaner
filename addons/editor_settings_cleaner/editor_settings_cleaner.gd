@@ -19,7 +19,6 @@ func _enter_tree() -> void:
 	pass
 	context_menu_plugin = ContextMenuPlugin.new()
 	add_context_menu_plugin(EditorContextMenuPlugin.CONTEXT_SLOT_INSPECTOR_PROPERTY, context_menu_plugin)
-	context_menu_plugin
 	
 	################################################
 	################################################
