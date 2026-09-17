@@ -36,6 +36,7 @@ func _exit_tree() -> void:
 	pass
 	
 	remove_context_menu_plugin(context_menu_plugin)
+	context_menu_plugin = null
 
 
 ################################################
